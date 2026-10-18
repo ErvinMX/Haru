@@ -17,12 +17,6 @@ Haru is a personal iOS development project exploring how vocabulary learning can
 - **Time-of-day design:** The interface changes its atmosphere between morning, day, evening, and night.
 - **iOS widgets (experimental):** A vocabulary review widget is included in the project, but its data-sharing and signing configuration are still being tested.
 
-## Screenshots
-
-*Screenshots will be added here.*
-
-Suggested screenshots: Home, Journey, Vocabulary Learning, Quiz, and Word Review.
-
 ## Tech stack
 
 | Component | Technology |
@@ -69,7 +63,7 @@ A separate web version is also being considered to make Haru easier to share and
 
 ## Try Haru Web
 
-Launch Haru in your browser
+Launch Haru in your browser: https://haru-web-vod.pages.dev/
 
 Haru was originally developed as a native iOS application using SwiftUI. A web adaptation was created with Claude assistance to make the project accessible without requiring an iPhone or app installation.
 
