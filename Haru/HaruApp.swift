@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct HaruApp: App {
+    @AppStorage("haru.onboarding.completed") private var hasCompletedOnboarding = false
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if hasCompletedOnboarding {
+                ContentView()
+            } else {
+                OnboardingView {
+                    hasCompletedOnboarding = true
+                }
+            }
         }
     }
 }

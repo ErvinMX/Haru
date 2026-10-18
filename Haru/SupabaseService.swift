@@ -1,3 +1,4 @@
+
 //
 //  SupabaseService.swift
 //  Haru
@@ -8,37 +9,62 @@
 import Foundation
 import Supabase
 
-// MARK: - Supabase Client Configuration
+
 final class SupabaseService {
+
     static let shared = SupabaseService()
-    
-    // Replace these with your actual Supabase URL and anon key from Step 1
-    private let supabaseURL = URL(string: "YOUR_SUPABASE_PROJECT_URL")!
-    private let supabaseKey = "YOUR_SUPABASE_ANON_KEY"
-    
+
+
+    private let supabaseURL = URL(
+        string: "https://dfkydlznavniytpzjsrq.supabase.co"
+    )!
+
+
+    private let supabaseKey =
+        "sb_publishable_H8muOjNyEf_dhuNrXw0IVg_MsEqTGTR"
+
+
     let client: SupabaseClient
-    
+
+
     private init() {
+
         self.client = SupabaseClient(
             supabaseURL: supabaseURL,
             supabaseKey: supabaseKey
         )
     }
-}
 
-// MARK: - TOPIK Word Model
-struct TopikWord: Codable, Identifiable {
-    let id: Int64
-    let hangul: String
-    let english: String
-    let partOfSpeech: String?
-    let topikLevel: Int
-    
-    enum CodingKeys: String, CodingKey {
-        case id
-        case hangul
-        case english
-        case partOfSpeech = "part_of_speech"
-        case topikLevel = "topik_level"
+
+    // MARK: - New Haru vocabulary (all three difficulties)
+    func fetchWords() async throws -> [TopikWord] {
+        var allWords: [TopikWord] = []
+        let pageSize = 1000
+        var offset = 0
+
+        while true {
+            let batch: [TopikWord] = try await client
+                .from("haru_vocabulary")
+                .select("id,hangul,english,level,theme,part_of_speech,example_ko,example_en")
+                .order("id", ascending: true)
+                .range(from: offset, to: offset + pageSize - 1)
+                .execute().value
+
+            allWords.append(contentsOf: batch)
+
+            if batch.count < pageSize {
+                break
+            }
+
+            offset += pageSize
+        }
+
+        return allWords
+    }
+
+
+    // Compatibility for existing callers while migrating screens.
+    func fetchTopikWords() async throws -> [TopikWord] {
+        try await fetchWords()
     }
 }

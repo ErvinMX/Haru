@@ -6,6 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4B337382305580820093C105 /* vocab.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B3373813055806B0093C105 /* vocab.json */; };
+		4B337383305580820093C105 /* vocab.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B3373813055806B0093C105 /* vocab.json */; };
+		4B49236F305FB0EB001B03AB /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 4B49236E305FB0EB001B03AB /* Supabase */; };
+		4B492375305FC5B8001B03AB /* QuizModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B492374305FC5AD001B03AB /* QuizModels.swift */; };
+		4B492376305FC5B8001B03AB /* QuizModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B492374305FC5AD001B03AB /* QuizModels.swift */; };
+		4B492378305FCC99001B03AB /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B492377305FCC93001B03AB /* QuizView.swift */; };
+		4B492379305FCC99001B03AB /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B492377305FCC93001B03AB /* QuizView.swift */; };
+		4B49237E305FEE06001B03AB /* QuizGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B49237D305FEDFF001B03AB /* QuizGenerator.swift */; };
+		4B49237F305FEE06001B03AB /* QuizGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B49237D305FEDFF001B03AB /* QuizGenerator.swift */; };
+		4B49238730600F46001B03AB /* Curriculum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B49238630600F38001B03AB /* Curriculum.swift */; };
+		4B49238830600F46001B03AB /* Curriculum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B49238630600F38001B03AB /* Curriculum.swift */; };
+		4BCE1134304D4EE4003D5A3B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCE1133304D4EE4003D5A3B /* WidgetKit.framework */; };
+		4BCE1136304D4EE4003D5A3B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCE1135304D4EE4003D5A3B /* SwiftUI.framework */; };
+		4BCE1143304D4EE6003D5A3B /* VocabWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4BCE1131304D4EE4003D5A3B /* VocabWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4BCE114E304D5635003D5A3B /* VocabWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE114D304D552D003D5A3B /* VocabWord.swift */; };
+		4BCE114F304D5635003D5A3B /* VocabWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE114D304D552D003D5A3B /* VocabWord.swift */; };
+		4BCE1151304D567B003D5A3B /* VocabStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE1150304D5660003D5A3B /* VocabStore.swift */; };
+		4BCE1152304D567B003D5A3B /* VocabStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE1150304D5660003D5A3B /* VocabStore.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4BCE1111304D4C33003D5A3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,17 +42,69 @@
 			remoteGlobalIDString = 4BCE1102304D4C31003D5A3B;
 			remoteInfo = Haru;
 		};
+		4BCE1141304D4EE6003D5A3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BCE10FB304D4C31003D5A3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BCE1130304D4EE4003D5A3B;
+			remoteInfo = VocabWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4BCE1148304D4EE6003D5A3B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4BCE1143304D4EE6003D5A3B /* VocabWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4B3373813055806B0093C105 /* vocab.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vocab.json; sourceTree = "<group>"; };
+		4B492374305FC5AD001B03AB /* QuizModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModels.swift; sourceTree = "<group>"; };
+		4B492377305FCC93001B03AB /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		4B49237D305FEDFF001B03AB /* QuizGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizGenerator.swift; sourceTree = "<group>"; };
+		4B49238630600F38001B03AB /* Curriculum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curriculum.swift; sourceTree = "<group>"; };
 		4BCE1103304D4C31003D5A3B /* Haru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BCE1110304D4C33003D5A3B /* HaruTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaruTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BCE111A304D4C33003D5A3B /* HaruUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaruUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCE1131304D4EE4003D5A3B /* VocabWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VocabWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCE1133304D4EE4003D5A3B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4BCE1135304D4EE4003D5A3B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		4BCE114A304D52DA003D5A3B /* VocabWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VocabWidgetExtension.entitlements; sourceTree = "<group>"; };
+		4BCE114D304D552D003D5A3B /* VocabWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabWord.swift; sourceTree = "<group>"; };
+		4BCE1150304D5660003D5A3B /* VocabStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4BC57E4630725353006A5284 /* Exceptions for "Haru" folder in "Haru" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4BCE1102304D4C31003D5A3B /* Haru */;
+		};
+		4BCE1144304D4EE6003D5A3B /* Exceptions for "VocabWidget" folder in "VocabWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4BCE1130304D4EE4003D5A3B /* VocabWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4BCE1105304D4C31003D5A3B /* Haru */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4BC57E4630725353006A5284 /* Exceptions for "Haru" folder in "Haru" target */,
+			);
 			path = Haru;
 			sourceTree = "<group>";
 		};
@@ -45,6 +118,14 @@
 			path = HaruUITests;
 			sourceTree = "<group>";
 		};
+		4BCE1137304D4EE4003D5A3B /* VocabWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4BCE1144304D4EE6003D5A3B /* Exceptions for "VocabWidget" folder in "VocabWidgetExtension" target */,
+			);
+			path = VocabWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B49236F305FB0EB001B03AB /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,15 +151,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4BCE112E304D4EE4003D5A3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCE1136304D4EE4003D5A3B /* SwiftUI.framework in Frameworks */,
+				4BCE1134304D4EE4003D5A3B /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		4BCE10FA304D4C31003D5A3B = {
 			isa = PBXGroup;
 			children = (
+				4BCE114B304D54E5003D5A3B /* Shared */,
+				4BCE114A304D52DA003D5A3B /* VocabWidgetExtension.entitlements */,
 				4BCE1105304D4C31003D5A3B /* Haru */,
 				4BCE1113304D4C33003D5A3B /* HaruTests */,
 				4BCE111D304D4C33003D5A3B /* HaruUITests */,
+				4BCE1137304D4EE4003D5A3B /* VocabWidget */,
+				4BCE1132304D4EE4003D5A3B /* Frameworks */,
 				4BCE1104304D4C31003D5A3B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +183,32 @@
 				4BCE1103304D4C31003D5A3B /* Haru.app */,
 				4BCE1110304D4C33003D5A3B /* HaruTests.xctest */,
 				4BCE111A304D4C33003D5A3B /* HaruUITests.xctest */,
+				4BCE1131304D4EE4003D5A3B /* VocabWidgetExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4BCE1132304D4EE4003D5A3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BCE1133304D4EE4003D5A3B /* WidgetKit.framework */,
+				4BCE1135304D4EE4003D5A3B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BCE114B304D54E5003D5A3B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4B49238630600F38001B03AB /* Curriculum.swift */,
+				4B49237D305FEDFF001B03AB /* QuizGenerator.swift */,
+				4B492377305FCC93001B03AB /* QuizView.swift */,
+				4B492374305FC5AD001B03AB /* QuizModels.swift */,
+				4B3373813055806B0093C105 /* vocab.json */,
+				4BCE1150304D5660003D5A3B /* VocabStore.swift */,
+				4BCE114D304D552D003D5A3B /* VocabWord.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,16 +221,19 @@
 				4BCE10FF304D4C31003D5A3B /* Sources */,
 				4BCE1100304D4C31003D5A3B /* Frameworks */,
 				4BCE1101304D4C31003D5A3B /* Resources */,
+				4BCE1148304D4EE6003D5A3B /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4BCE1142304D4EE6003D5A3B /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				4BCE1105304D4C31003D5A3B /* Haru */,
 			);
 			name = Haru;
 			packageProductDependencies = (
+				4B49236E305FB0EB001B03AB /* Supabase */,
 			);
 			productName = Haru;
 			productReference = 4BCE1103304D4C31003D5A3B /* Haru.app */;
@@ -163,6 +285,28 @@
 			productReference = 4BCE111A304D4C33003D5A3B /* HaruUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		4BCE1130304D4EE4003D5A3B /* VocabWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCE1145304D4EE6003D5A3B /* Build configuration list for PBXNativeTarget "VocabWidgetExtension" */;
+			buildPhases = (
+				4BCE112D304D4EE4003D5A3B /* Sources */,
+				4BCE112E304D4EE4003D5A3B /* Frameworks */,
+				4BCE112F304D4EE4003D5A3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4BCE1137304D4EE4003D5A3B /* VocabWidget */,
+			);
+			name = VocabWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = VocabWidgetExtension;
+			productReference = 4BCE1131304D4EE4003D5A3B /* VocabWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +328,9 @@
 						CreatedOnToolsVersion = 26.0;
 						TestTargetID = 4BCE1102304D4C31003D5A3B;
 					};
+					4BCE1130304D4EE4003D5A3B = {
+						CreatedOnToolsVersion = 26.0;
+					};
 				};
 			};
 			buildConfigurationList = 4BCE10FE304D4C31003D5A3B /* Build configuration list for PBXProject "Haru" */;
@@ -195,6 +342,9 @@
 			);
 			mainGroup = 4BCE10FA304D4C31003D5A3B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4B49236D305FB0EB001B03AB /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4BCE1104304D4C31003D5A3B /* Products */;
 			projectDirPath = "";
@@ -203,6 +353,7 @@
 				4BCE1102304D4C31003D5A3B /* Haru */,
 				4BCE110F304D4C33003D5A3B /* HaruTests */,
 				4BCE1119304D4C33003D5A3B /* HaruUITests */,
+				4BCE1130304D4EE4003D5A3B /* VocabWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B337383305580820093C105 /* vocab.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +381,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4BCE112F304D4EE4003D5A3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B337382305580820093C105 /* vocab.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -236,6 +396,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B492375305FC5B8001B03AB /* QuizModels.swift in Sources */,
+				4B492378305FCC99001B03AB /* QuizView.swift in Sources */,
+				4BCE114E304D5635003D5A3B /* VocabWord.swift in Sources */,
+				4B49238830600F46001B03AB /* Curriculum.swift in Sources */,
+				4B49237E305FEE06001B03AB /* QuizGenerator.swift in Sources */,
+				4BCE1151304D567B003D5A3B /* VocabStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +419,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4BCE112D304D4EE4003D5A3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B492376305FC5B8001B03AB /* QuizModels.swift in Sources */,
+				4BCE114F304D5635003D5A3B /* VocabWord.swift in Sources */,
+				4B49237F305FEE06001B03AB /* QuizGenerator.swift in Sources */,
+				4BCE1152304D567B003D5A3B /* VocabStore.swift in Sources */,
+				4B49238730600F46001B03AB /* Curriculum.swift in Sources */,
+				4B492379305FCC99001B03AB /* QuizView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +444,11 @@
 			isa = PBXTargetDependency;
 			target = 4BCE1102304D4C31003D5A3B /* Haru */;
 			targetProxy = 4BCE111B304D4C33003D5A3B /* PBXContainerItemProxy */;
+		};
+		4BCE1142304D4EE6003D5A3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BCE1130304D4EE4003D5A3B /* VocabWidgetExtension */;
+			targetProxy = 4BCE1141304D4EE6003D5A3B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -393,10 +577,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Haru/Haru.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XA88RYPA4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Haru/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -406,8 +593,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Haru;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingxiang.Haru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -424,10 +611,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Haru/Haru.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XA88RYPA4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Haru/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -437,8 +627,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Haru;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingxiang.Haru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -530,6 +720,68 @@
 			};
 			name = Release;
 		};
+		4BCE1146304D4EE6003D5A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = VocabWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XA88RYPA4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VocabWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VocabWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingxiang.Haru.VocabWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BCE1147304D4EE6003D5A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = VocabWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XA88RYPA4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VocabWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VocabWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingxiang.Haru.VocabWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -569,7 +821,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4BCE1145304D4EE6003D5A3B /* Build configuration list for PBXNativeTarget "VocabWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCE1146304D4EE6003D5A3B /* Debug */,
+				4BCE1147304D4EE6003D5A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4B49236D305FB0EB001B03AB /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B49236E305FB0EB001B03AB /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B49236D305FB0EB001B03AB /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4BCE10FB304D4C31003D5A3B /* Project object */;
 }

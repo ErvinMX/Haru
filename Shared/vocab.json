@@ -1,0 +1,202 @@
+[
+  {
+    "id": "a1b2c3d4-0001-4000-8000-000000000001",
+    "hangul": "가다",
+    "romanization": "gada",
+    "englishMeaning": "To go",
+    "audioFileName": "gada.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0002-4000-8000-000000000002",
+    "hangul": "오다",
+    "romanization": "oda",
+    "englishMeaning": "To come",
+    "audioFileName": "oda.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0003-4000-8000-000000000003",
+    "hangul": "먹다",
+    "romanization": "meokda",
+    "englishMeaning": "To eat",
+    "audioFileName": "meokda.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0004-4000-8000-000000000004",
+    "hangul": "마시다",
+    "romanization": "masida",
+    "englishMeaning": "To drink",
+    "audioFileName": "masida.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0005-4000-8000-000000000005",
+    "hangul": "자다",
+    "romanization": "jada",
+    "englishMeaning": "To sleep",
+    "audioFileName": "jada.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0006-4000-8000-000000000006",
+    "hangul": "보다",
+    "romanization": "boda",
+    "englishMeaning": "To see / watch",
+    "audioFileName": "boda.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0007-4000-8000-000000000007",
+    "hangul": "듣다",
+    "romanization": "deutda",
+    "englishMeaning": "To listen / hear",
+    "audioFileName": "deutda.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0008-4000-8000-000000000008",
+    "hangul": "읽다",
+    "romanization": "ikda",
+    "englishMeaning": "To read",
+    "audioFileName": "ikda.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0009-4000-8000-000000000009",
+    "hangul": "쓰다",
+    "romanization": "sseuda",
+    "englishMeaning": "To write / to use",
+    "audioFileName": "sseuda.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0010-4000-8000-000000000010",
+    "hangul": "말하다",
+    "romanization": "malhada",
+    "englishMeaning": "To speak / talk",
+    "audioFileName": "malhada.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0011-4000-8000-000000000011",
+    "hangul": "사람",
+    "romanization": "saram",
+    "englishMeaning": "Person / People",
+    "audioFileName": "saram.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0012-4000-8000-000000000012",
+    "hangul": "친구",
+    "romanization": "chingu",
+    "englishMeaning": "Friend",
+    "audioFileName": "chingu.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0013-4000-8000-000000000013",
+    "hangul": "물",
+    "romanization": "mul",
+    "englishMeaning": "Water",
+    "audioFileName": "mul.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0014-4000-8000-000000000014",
+    "hangul": "밥",
+    "romanization": "bap",
+    "englishMeaning": "Rice / Meal",
+    "audioFileName": "bap.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0015-4000-8000-000000000015",
+    "hangul": "집",
+    "romanization": "jip",
+    "englishMeaning": "House / Home",
+    "audioFileName": "jip.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0016-4000-8000-000000000016",
+    "hangul": "학교",
+    "romanization": "hakgyo",
+    "englishMeaning": "School",
+    "audioFileName": "hakgyo.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0017-4000-8000-000000000017",
+    "hangul": "선생님",
+    "romanization": "seonsaengnim",
+    "englishMeaning": "Teacher",
+    "audioFileName": "seonsaengnim.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0018-4000-8000-000000000018",
+    "hangul": "책",
+    "romanization": "chaek",
+    "englishMeaning": "Book",
+    "audioFileName": "chaek.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0019-4000-8000-000000000019",
+    "hangul": "돈",
+    "romanization": "don",
+    "englishMeaning": "Money",
+    "audioFileName": "don.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0020-4000-8000-000000000020",
+    "hangul": "시간",
+    "romanization": "sigan",
+    "englishMeaning": "Time / Hour",
+    "audioFileName": "sigan.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0021-4000-8000-000000000021",
+    "hangul": "크다",
+    "romanization": "keuda",
+    "englishMeaning": "To be big",
+    "audioFileName": "keuda.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0022-4000-8000-000000000022",
+    "hangul": "작다",
+    "romanization": "jakda",
+    "englishMeaning": "To be small",
+    "audioFileName": "jakda.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0023-4000-8000-000000000023",
+    "hangul": "좋다",
+    "romanization": "jota",
+    "englishMeaning": "To be good / like",
+    "audioFileName": "jota.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0024-4000-8000-000000000024",
+    "hangul": "많다",
+    "romanization": "manta",
+    "englishMeaning": "To be many / much",
+    "audioFileName": "manta.mp3",
+    "topikLevel": 1
+  },
+  {
+    "id": "a1b2c3d4-0025-4000-8000-000000000025",
+    "hangul": "없다",
+    "romanization": "eopda",
+    "englishMeaning": "To not exist / not have",
+    "audioFileName": "eopda.mp3",
+    "topikLevel": 1
+  }
+]

@@ -12,6 +12,5 @@ import SwiftUI
 struct VocabWidgetBundle: WidgetBundle {
     var body: some Widget {
         VocabWidget()
-        VocabWidgetControl()
     }
 }
