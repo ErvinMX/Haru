@@ -67,19 +67,13 @@ Potential next steps include a broader language challenge mode, grammar and cont
 
 A separate web version is also being considered to make Haru easier to share and test across devices.
 
-### Vocabulary Sources & Acknowledgements
+### Vocabulary Credits
 
-Haru's Korean vocabulary content is based on the *Korean Learner's Vocabulary List* (한국어 학습용 어휘 목록) published by the National Institute of Korean Language (국립국어원).
+Haru's Korean vocabulary dataset, including English translations and example sentences, was sourced from [FoldAlpha TOPIK Vocabulary](https://topikvocab.foldalpha.com/download/).
 
-The original dataset contains 5,965 vocabulary entries and is made available under the Korea Open Government License (KOGL) Type 1, which permits reuse and modification with proper attribution.
+The vocabulary content has been adapted for Haru's learning system.
 
-**Original source:** [National Institute of Korean Language](https://www.korean.go.kr/front_eng/down/down_02V.do?etc_seq=71)
-
-**Licence:** [KOGL Type 1](https://www.kogl.or.kr/info/license.do)
-
-English translations and bilingual example sentences were obtained from [FoldAlpha TOPIK Vocabulary](https://topikvocab.foldalpha.com/download/). The vocabulary content has been adapted for Haru's learning system.
-
-Haru is an independent educational project and is not affiliated with or endorsed by the National Institute of Korean Language or FoldAlpha.
+Haru is an independent educational project and is not affiliated with or endorsed by FoldAlpha.
 
 ## About
 
