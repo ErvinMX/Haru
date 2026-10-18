@@ -67,6 +67,14 @@ Potential next steps include a broader language challenge mode, grammar and cont
 
 A separate web version is also being considered to make Haru easier to share and test across devices.
 
+## Try Haru Web
+
+Launch Haru in your browser
+
+Haru was originally developed as a native iOS application using SwiftUI. A web adaptation was created with Claude assistance to make the project accessible without requiring an iPhone or app installation.
+
+The web version is primarily optimised for mobile browsers. Learning progress can be saved locally in your browser or explored in a temporary session without saving.
+
 ### Vocabulary Credits
 
 Haru's Korean vocabulary dataset, including English translations and example sentences, was sourced from [FoldAlpha TOPIK Vocabulary](https://topikvocab.foldalpha.com/download/).
